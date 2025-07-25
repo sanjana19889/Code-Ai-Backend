@@ -64,3 +64,4 @@ app.post('/check-code-quality', async (req, res) => {
 app.listen(process.env.PORT, () => {
     console.log("Server Running on PORT:", process.env.PORT);
 });
+module.exports = app;
